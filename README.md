@@ -1,65 +1,88 @@
-# CryptoGuru - Cryptocurrency Information and Statistics
+# SecureXpert
 
-Welcome to CryptoGuru, your go-to source for comprehensive cryptocurrency information and statistics. This front-end project is built using React, Tailwind CSS, and the Chakra UI framework.
+SecureXpert is a cutting-edge web application designed to bolster cybersecurity measures by identifying and addressing vulnerabilities in tech devices. With a robust feature set and a modern tech stack, SecureXpert empowers users and companies to enhance their security posture effectively.
 
-## Table of Contents
+📚 **Table of Contents**
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Deployment](#deployment)
-
-## Introduction
-
-CryptoGuru is a web application designed to provide users with real-time information and statistics about various cryptocurrencies. Whether you're a seasoned investor or just curious about the world of cryptocurrencies, CryptoGuru has you covered.
-
-## Features
-
-- **Live Data:** Get up-to-date information on cryptocurrency prices, market capitalization, and more.
-- **User-Friendly Interface:** The application is designed with a clean and intuitive user interface to ensure a seamless experience.
-- **Responsive Design:** Access CryptoGuru on any device, thanks to its responsive design.
-
-## Tech Stack
-
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework.
-- [Chakra UI](https://chakra-ui.com/) - A simple, modular component library for React.
-
-## Getting Started
-
-To get started with the CryptoGuru project, follow these steps:
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/cryptoguru.git
-cd cryptoguru
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Run the development server:
-
-```bash
-npm start
-```
-
-Visit [http://localhost:3000](http://localhost:3000) in your browser to see CryptoGuru in action.
-
-## Usage
-
-Explore the world of cryptocurrencies using CryptoGuru by visiting our deployed website: [CryptoGuru](http://cryptoguru.vercel.app).
-
-## Deployment
-
-The CryptoGuru front-end is deployed on [Vercel](https://vercel.com/). Visit our live website at [http://cryptoguru.vercel.app](http://cryptoguru.vercel.app).
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [Getting Started](#getting-started)
+5. [Usage](#usage)
+6. [Deployment](#deployment)
 
 ---
 
-Thank you for using CryptoGuru! If you have any questions or feedback, feel free to reach out to us. Happy exploring! 🚀
+## Introduction <a name="introduction"></a>
+
+SecureXpert aims to tackle the pressing issue of vulnerabilities in tech devices like laptops and personal computers. Our platform provides comprehensive scanning capabilities, detailed reports, and access to cybersecurity experts for remediation services. Additionally, our interactive features, such as ethical hacking contests, add an engaging dimension to cybersecurity efforts.
+
+## Features <a name="features"></a>
+
+1. **Device Scans**: Conduct thorough scans to identify open ports on devices.
+2. **Detailed Reports**: Receive comprehensive reports detailing open ports and associated vulnerabilities.
+3. **Vulnerability Assessment**: Assess susceptibility to hacking and identify software or programs associated with open ports.
+4. **Access to Experts**: Connect with cybersecurity experts for remediation services.
+5. **Interactive Features**: Engage in ethical hacking contests with rewards for successful exploits.
+
+## Tech Stack <a name="tech-stack"></a>
+
+- **Backend**: Python with Flask for streamlined development.
+- **Frontend**: ReactJS for a dynamic user interface.
+- **Network Scanning**: Utilizes Python's socket library for advanced scanning.
+- **Deployment**: Render for seamless deployment.
+
+## Getting Started <a name="getting-started"></a>
+
+To start using SecureXpert:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/securexpert.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd securexpert
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install           # Install frontend dependencies
+    pip install -r requirements.txt   # Install backend dependencies
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start             # Start frontend
+    python app.py         # Start backend
+    ```
+
+## Usage <a name="usage"></a>
+
+SecureXpert offers a user-friendly interface for conducting device scans, viewing reports, and accessing cybersecurity experts. Users can initiate scans, view results, and request remediation services effortlessly.
+
+## Deployment <a name="deployment"></a>
+
+SecureXpert can be deployed using Render for seamless hosting. Follow these steps to deploy:
+
+1. Sign up for a Render account and create a new web service.
+2. Configure the web service to use the appropriate deployment settings.
+3. Push your SecureXpert code to a Git repository.
+4. Connect your Git repository to Render and deploy your application.
+
+Here's a sample configuration for deploying with Render:
+
+```yaml
+# render.yaml
+services:
+  - name: securexpert
+    env: python
+    buildCommand: python app.py
+    routes:
+      - type: https
+        primary: true
