@@ -49,7 +49,7 @@ figure.snip1390 h2 {
   color: #ffffff;
 }
 figure.snip1390 h4 {
-  color:#A6A57A;
+  color:black;
 }
 
 figure.snip1390 blockquote {
@@ -71,6 +71,10 @@ figure.snip1390 blockquote:before {
   font-style: normal;
   top: 0px;
   left: 20px;
+}
+.heading{
+  color: #ffffff;
+  font-size: 35px;
 }
 figure.snip1390 .profile {
   width: 100px;

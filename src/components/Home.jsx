@@ -97,7 +97,7 @@ const HeroSection = () => {
                 ))}
               </div>
               <p className="mt-4 text-gray-800 dark:text-gray-200">
-                "Impressive quality and quick delivery!"
+                "Impressive quality and quick solution"
               </p>
             </div>
             {/* End Review */}

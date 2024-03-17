@@ -21,7 +21,7 @@ function PortScan() {
 
   return (
     <div className='w-full  mx-auto flex flex-col items-center justify-center'>
-      <div className="mb-5 bg-[#8069F9] w-[30%] rounded-[2.375rem] ">
+      <div className="my-5 bg-[#8069F9] w-[30%] rounded-[2.375rem] ">
       <div className='my-5 flex justify-items-center items-center flex-col '>
         <div>
         <label for="text" class="block mb-2 text-sm font-medium  text-white">IP Address</label>

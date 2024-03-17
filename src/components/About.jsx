@@ -5,13 +5,13 @@ function About() {
   return (
     <>
       <h1 style={{ color: '#dd62f9', display: 'flex', justifyContent: 'center', fontFamily:'Roboto', fontSize: '80px',fontWeight:'800' }}>Plan</h1>
-      <p style={{ fontSize: '30px', fontFamily: 'Arial, Helvetica, sans-serif', color: '#A6A57A', textAlign:'center' }}>
+      <p style={{ fontSize: '30px', fontFamily: 'Arial, Helvetica, sans-serif', color: 'black', textAlign:'center',marginBottom:'30px' }}>
         Discovered vulnerabilities.....Choose our expert service for comprehensive remediation
       </p>
       <div className="main">
         <figure className="snip1390" style={{ minWidth: '420px' }}>
           <figcaption>
-            <h2><b>Basic</b></h2>
+            <h1 class="heading"><b>Basic</b></h1>
             <blockquote>
               <ul className="list">
                 <li>Securing Current Open Port</li>
@@ -25,7 +25,7 @@ function About() {
         </figure>
         <figure className="snip1390" style={{ minWidth: '420px' }}>
           <figcaption>
-            <h2><b>Advance</b></h2>
+            <h1 class="heading"><b>Advance</b></h1>
             <blockquote>
               <ul className="list">
                 <li>Securing Current Open Port</li>
@@ -40,7 +40,7 @@ function About() {
           </figcaption>
         </figure>
       </div>
-      <h1 style={{ color: '#8E62F9', display: 'flex', justifyContent: 'center', fontSize: '50px' }}>Testimonials</h1>
+      <h1 style={{ color: '#8E62F9', display: 'flex', justifyContent: 'center', fontSize: '50px', marginTop:'3rem'}}>Testimonials</h1>
       <div className="main">
         <figure className="snip1390">
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3" className="profile" />
